@@ -8,6 +8,8 @@
 
 #import "XYViewController.h"
 
+#import <XYConfigure/XYConfigure.h>
+
 @interface XYViewController ()
 
 @end
@@ -18,6 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [XYConfigure setLogEnabled:YES];
+//    [XYConfigure setVersion:1];
 }
 
 - (void)didReceiveMemoryWarning
