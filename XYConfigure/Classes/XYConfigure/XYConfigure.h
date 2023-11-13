@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)setLogEnabled:(BOOL)enable;
 
++ (void)printVersion;
+
 @end
 
 NS_ASSUME_NONNULL_END

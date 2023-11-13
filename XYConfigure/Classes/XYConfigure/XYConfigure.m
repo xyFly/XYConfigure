@@ -22,4 +22,8 @@ static BOOL logOpen = NO;
     }
 }
 
++ (void)printVersion {
+    NSLog(@"1.1.01");
+}
+
 @end
