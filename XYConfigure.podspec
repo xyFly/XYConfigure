@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XYConfigure'
-  s.version          = '1.1.1'
+  s.version          = '1.1.01'
   s.summary          = '组件配置，包含日志开关，日志等级等'
 
 # This description is used to generate tags and improve search results.
